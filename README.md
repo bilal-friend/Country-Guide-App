@@ -1,5 +1,5 @@
 # Country-Guide-App
 
-my first js project using fetch
+my first js project used fetch
 
-## View Demo:
+## View Demo:  https://bilal-friend.github.io/Country-Guide-App/
