@@ -18,7 +18,9 @@ form.addEventListener("submit", function (e) {
     errorNote.textContent = "Input cannot be empty !";
     return;
   }
-  fetch(`https://restcountries.com/v3.1/name/${input.value}?fullText=true`)
+  fetch(
+    `https://restcountries.com/v3.1/name/${input.value.trim()}?fullText=true`
+  )
     .then((response) => {
       let myData = response.json();
       return myData;
